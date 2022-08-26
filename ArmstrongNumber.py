@@ -13,6 +13,7 @@ while num > 0:
    #print(digit)
    sum += digit ** 3
    num= num// 10
+   #print(num)
 
 # display the result
 if temp == sum:
