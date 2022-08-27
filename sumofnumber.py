@@ -31,3 +31,15 @@ for i in range(1,n+1):
     sum=sum+(i*i)
     print("+",end="(")
 print("=",sum)
+
+
+
+arr=[6,4,5,7,3]
+for i in range(len(arr)-1):
+    for j in range(i+1,len(arr),1):
+        if arr[i]+arr[j]==10:
+            print(arr[i],'+',arr[j],'= 10')
+
+# arr=[6,4,5,7,3]
+# 6 + 4 = 10
+# 7 + 3 = 10
