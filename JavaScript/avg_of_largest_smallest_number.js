@@ -27,3 +27,4 @@ function avg_of_largest_smallest_number(arr){
      
 }
 avg_of_largest_smallest_number(arr)
+
